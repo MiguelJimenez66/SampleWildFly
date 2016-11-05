@@ -18,4 +18,10 @@ public class micro {
 	    System.out.println("sumar: " + (a+b));
 	    return (a+b);
 	}
+	
+	@WebMethod()
+	public String listar_placas_robadas() {
+	    System.out.println("Placas: " + ("AAA000"));    
+	    return "placa: AAA000 " +"ASD789 "+"DER457 " +"ABC123 " +"ASD563 "+"UER8442 "+"KFN379 "+"EKO975 "+"BMC036 "+"QAS389 "+"TCR476 "+"TRC890 "+"ADV645";
+	}
 }
